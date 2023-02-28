@@ -1,27 +1,55 @@
-/* Set font and background colors */
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: #333;
-  background-color: #f2f2f2;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-/* Container class for sections */
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-/* Style the header and navigation */
 header {
-  background-color: #222;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
-nav {
+
+.logo h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.image {
+  margin-bottom: 30px;
+}
+
+.welcome-message h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.welcome-message p {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  background-color: black;
+  color: white;
+  font-size: 1.5em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #333;
+}
