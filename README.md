@@ -1,4 +1,4 @@
 
 <img src="qit.png">
 <br>
-<img src="quantumWireless.ong">
+<img src="quantumWireless.png">
